@@ -1,0 +1,114 @@
+body {
+  /*Typography */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans" , "Helvetice Neue" , sans-serif;
+}
+
+body a {
+  /* Typography */
+  text-decoration: none;
+  color: #8A5649;
+  font-weight: bold;
+}
+
+.text-center {
+  /* Layout */
+  text-align: center;
+}
+
+.masthead {
+  /* Layout */
+  padding: 6em 0;
+  background: url(https://static.pexels.com/photos/1486/wood-pattern-ground-parquet-floor-medium.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #383341;
+  border-bottom: solid 1em #383341;
+}
+
+.masthead-intro {  
+  /* Typography */
+  font-family: "Gentium Book Basic" , Georgia, serif;
+  font-size: 2em;
+  /* Layout */
+  margin-bottom: 0.1em;
+}
+
+.masthead-heading {
+  /* Typography */
+  font-family: "Open Sans" , "Helvetica Neue" ,  sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #383341;
+  /* Layout */
+  margin-top: -0.2em;
+}
+
+.content-width {
+  /* Layout */
+  max-width: 38em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.light-font > p,
+{
+  /*Typography */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.questions-section > h2 {
+  /* Typography */
+  font-family: "Gentium Book Basic" , Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  /* Layout */
+  margin: 2em 0 1em 0;
+}
+
+.social {
+  padding: 0;
+}
+
+.social > li {
+  /* Layout */
+  display: inline;
+  margin-right: 1em;
+}
+
+.content-footer {
+  /* Layout */
+  background: #383341;
+}
+
+.content-footer p {
+  /* Typography */
+  color: white;
+  /* Layout */
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
+.bottom-border {
+  border-bottom: .05em solid #A4654C;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead-heading {
+    font-size: 3em;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content-footer {
+    padding-right: 2em;
+    padding-left: 2em;
+  }
+} 
+    
+  
